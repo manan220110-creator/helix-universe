@@ -33,3 +33,6 @@ if user_input:
             st.write(result[0]["generated_text"])
         else:
             st.error("AI did not return a response. Try again.")
+HF_API_TOKEN = "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"
+
+
