@@ -7,7 +7,7 @@ st.title("Helix Universe")
 st.subheader("Intelligent Answers. Visual Imagination.")
 
 # ✅ THIS LINE IS IMPORTANT — DO NOT CHANGE THE NAME
-HF_API_TOKEN = st.secrets["HF_API_TOKEN"]
+HF_API_TOKEN = st.secrets["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"]
 
 API_URL = "https://api-inference.huggingface.co/models/google/flan-t5-large"
 
