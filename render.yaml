@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: car-price-estimator
+    runtime: python
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app --bind 0.0.0.0:$PORT
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.14.2
+      - key: FLASK_ENV
+        value: production
